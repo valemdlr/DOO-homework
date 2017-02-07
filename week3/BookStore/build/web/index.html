@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+
+        <link rel="stylesheet" href="static/bookstore.css" type="text/css"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <form action = "CrearLibro">
+            <h1> agregar un libro</h1>
+            <article>
+                <header>
+                    <h2>información general</h2>
+                </header>
+                <p>
+                <label> Nombre: </label>
+                    <input type = "text" name = "nombre" value ="" /> <br/>
+                </p>
+                <p>
+                    <label> Precio: </label>
+                    <input type = "text" name = "precio" value ="" /> <br/>
+                </p>
+                <p>
+                <label> ISBN: </label>
+                    <input type = "text" name = "ISBN" value ="" /> <br/>
+                </p>
+                <p>
+                <label>Fecha de publicación: </label>
+                    <input type = "text" name = "fdp" value ="" /> <br/>
+                 </p>
+               
+                <header>
+                    <h2>información del genero: </h2
+                </header>
+            <p>
+            <label>Género:</label>
+            <select name = "genero">
+                <option>Drama</option>
+                <option>Ciencia Ficción</option>
+                <option>Romance</option>
+                <option>Terror</option>
+                <option>Aventura</option>
+                <option>Autoayuda</option>
+                <option>Otro</option>
+            </select>
+            </p>
+            <header>
+                <h2>Información de la publicación</h2>
+            </header>
+            <p>
+                <label>Editorial:</label>
+                    <input type = "text" name = "editorial" value = ""/>
+                <label>Autor:</label>
+                    <input type = "text" name = "autor" value = ""/>
+            </p>   
+        </article>
+                <input type = "submit" name ="guardar" value = "guardar" class="btn"/>
+                
+        </form>
+    </body>
+</html>
